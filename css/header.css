@@ -1,0 +1,35 @@
+.header {
+  padding: 45px 55px 0 55px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 29px;
+  font-weight: 800;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-item {
+  margin-right: 88px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__nav-item_checked {
+  padding: 11px 28px;
+  background-color: #FA9021;
+  border-radius: 6px;
+}
+
+.header__nav-item:last-child {
+  margin-right: 0;
+}
