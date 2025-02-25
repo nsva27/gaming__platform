@@ -2,54 +2,138 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap"
-      rel="stylesheet">
-   <link rel="stylesheet" href="css/index.css">
-   <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Document</title>
 </head>
 
 <body>
-   <header class="header">
+  <div class="wrapper">
+    <header class="header">
       <div class="header__wrapper">
-         <div class="header__logo">Logo</div>
-         <nav class="header__nav">
-            <a class="header__nav-item" href="#">Home</a>
-            <a class="header__nav-item" href="#">About us</a>
-            <a class="header__nav-item" href="#">Portfolio</a>
-            <a class="header__nav-item" href="#">News</a>
-            <a class="header__nav-item header__nav-item_checked" href="#">Contact us</a>
-         </nav>
+        <span class="header__logo">Logo</span>
+        <nav class="header__nav">
+          <a class="header__nav-item" href="#">Home</a>
+          <a class="header__nav-item" href="#">About us</a>
+          <a class="header__nav-item" href="#">Portfolio</a>
+          <a class="header__nav-item" href="#">News</a>
+          <a class="header__nav-item header__nav-item_checked" href="#">Contact us</a>
+        </nav>
       </div>
-   </header>
-   <!-- /header -->
-   <main class="main">
-      <div class="container">
-         <div class="main__text-block">
-            <h1 class="main__title">
-               3D game Dev
-            </h1>
-            <h2 class="main__slogan">
-               Work that we produce for our clients
-            </h2>
-            <p class="main__text">
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-               industry's
-               standard.
-            </p>
-            <a class="btn main__btn" href="#">Get more details</a>
-         </div>
-         <img class="main__img" src="img/joy_stick 1.png" alt="joy-stick">
-         <img class="main__img_unity" src="img/unity.png" alt="unity">
-         <img class="main__img_cry" src="img/cry.png" alt="cry">
-         <img class="main__img_unreal" src="img/unreal.png" alt="unreal">
+    </header>
+    <!-- /header -->
+    <main class="main container">
+      <div class="main__text-block">
+        <h2 class="main__title">
+          3D game Dev
+        </h2>
+        <h1 class="main__slogan">
+          Work that we produce for our clients
+        </h1>
+        <p class="main__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's
+          standard.
+        </p>
+        <a class="main__btn" href="#">Get more details</a>
       </div>
-   </main>
-   <!-- /main -->
+      <img class="main__img" src="img/joy_stick 1.png" alt="joy-stick">
+      <img class="main__img_unity" src="img/unity.png" alt="unity">
+      <img class="main__img_cry" src="img/cry.png" alt="cry">
+      <img class="main__img_unreal" src="img/unreal.png" alt="unreal">
+    </main>
+    <!-- /main -->
+    <section class="trends container">
+      <div class="trends__header">
+        <h2 class="title">
+          Currently Trending Games
+        </h2>
+        <a class="trends__btn" href="#">See all</a>
+      </div>
+      <div class="trends__wrapper">
+        <div class="trends__item">
+          <img class="trends__img" src="img/game_3.png" alt="game">
+          <div class="trends__followers">
+            40 Followers
+          </div>
+        </div>
+        <div class="trends__item">
+          <img class="trends__img" src="img/game_2.png" alt="game">
+          <div class="trends__followers">
+            40 Followers
+          </div>
+        </div>
+        <div class="trends__item">
+          <img class="trends__img" src="img/game_3.png" alt="game">
+          <div class="trends__followers">
+            40 Followers
+          </div>
+        </div>
+        <div class="trends__item">
+          <img class="trends__img" src="img/game_4.png" alt="game">
+          <div class="trends__followers">
+            40 Followers
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <h2 class="post__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+
+        <h3 class="post__subtitle">Lorem Ipsum</h3>
+        <p class="text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's
+          standard
+          dummy text ever since the 1500s.
+        </p>
+
+        <img class="post__img" src="img/game.jpg" alt="game">
+        <img class="post__bg" src="img/dotted_bg.png" alt="dot">
+      </div>
+    </section>
+    <!-- /trends -->
+  </div>
+  <section class="dev container">
+    <h2 class="dev__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+    <p class="text">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+      the industry's standard
+      dummy text ever since the 1500s
+    </p>
+    <div class="dev__wrapper">
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+      <div class="dev__item">
+        <img class="dev__img" src="img/icons/smartphone.svg" alt="mobile">
+        <span class="dev__text">Mobile Game Development</span>
+      </div>
+    </div>
+  </section>
 
 
-   <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

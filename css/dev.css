@@ -1,0 +1,32 @@
+.dev {
+  background-image: url('../img/dev_bg.png');
+  background-size: cover;
+}
+
+.dev__title {
+  margin: 0 auto;
+  width: 826px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 187%;
+  text-align: center;
+}
+
+.dev .text {
+  margin: 0 auto;
+  width: 820px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.dev__wrapper {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dev__item {}
+
+.dev__img {}
+
+.dev__text {}

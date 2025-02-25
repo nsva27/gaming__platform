@@ -1,0 +1,88 @@
+.trends {
+  margin-top: 178px;
+}
+
+.trends__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {}
+
+.trends__btn {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 11%);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.trends__wrapper {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trends__item {}
+
+.trends__img {}
+
+.trends__followers {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trends__followers::before {
+  content: url('../img/icons/fire.svg');
+  margin-right: 13px;
+}
+
+.post {
+  margin-top: 130px;
+  position: relative;
+}
+
+.post__title {
+  width: 826px;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 188%;
+}
+
+.post__subtitle {
+  margin-top: 67px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text {
+  width: 545px;
+  margin-top: 32px;
+  line-height: 187%;
+}
+
+.post__img {
+  width: 100%;
+  height: 462px;
+  margin: 46px 0 157px;
+  position: relative;
+  z-index: 2;
+}
+
+.post__bg {
+  position: absolute;
+  right: 150px;
+  top: 333px;
+  z-index: 1;
+}
