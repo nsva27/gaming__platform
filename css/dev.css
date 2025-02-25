@@ -5,6 +5,7 @@
 
 .dev__title {
   margin: 0 auto;
+  padding-top: 93px;
   width: 826px;
   font-size: 30px;
   font-weight: 700;
@@ -20,13 +21,42 @@
 }
 
 .dev__wrapper {
-  margin-top: 99px;
+  width: 1045px;
+  margin: 99px auto 0;
+  padding-bottom: 130px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 114px;
 }
 
-.dev__item {}
+.dev__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.dev__img {}
+}
 
-.dev__text {}
+.dev__circle {
+  width: 65px;
+  height: 65px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+
+.dev__text {
+  margin-top: 30px;
+  position: relative;
+}
+
+.dev__text::after {
+  content: url('../img/icons/arrow.svg');
+  position: absolute;
+  top: 55px;
+  left: 45%;
+}
