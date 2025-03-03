@@ -40,7 +40,6 @@
   font-size: 35px;
   font-weight: 600;
   text-align: center;
-  line-height: 188%;
 }
 
 .post__subtitle {
@@ -52,7 +51,6 @@
 .text {
   width: 545px;
   margin-top: 32px;
-  line-height: 187%;
 }
 
 .post__img {

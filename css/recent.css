@@ -1,0 +1,86 @@
+.recent {
+  padding: 141px 0 163px;
+}
+
+.recent__projects {
+  text-align: center;
+}
+
+.recent__title {
+  font-size: 30px;
+}
+
+.recent__subtitle {
+  width: 497px;
+  margin: 15px auto 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.recent__items {
+  margin-top: 71px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 27px;
+  row-gap: 33px;
+}
+
+.recent .btn__see {
+  margin-top: 73px;
+}
+
+.recent__loop {
+  margin-top: 105px;
+}
+
+.recent__loop .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.recent__subscribe {
+  margin-top: 74px;
+  padding: 40px 56px;
+  background-color: #1C140F;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent__subscribe .title {
+  font-weight: 500;
+}
+
+.recent__subscribe .text {
+  font-size: 17px;
+}
+
+.recent__form {
+  /* width: 385px; */
+  position: relative;
+}
+
+.recent__input {
+  padding: 14px 189px 14px 25px;
+  font-size: 14px;
+  color: #898989;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.recent__btn {
+  padding: 9px 22px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #DC7000;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
