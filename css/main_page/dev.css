@@ -1,5 +1,5 @@
 .dev {
-  background-image: url('../img/dev_bg.png');
+  background: url('../../img/dev_bg.png') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .dev__text::after {
-  content: url('../img/icons/arrow.svg');
+  content: url('../../img/icons/arrow.svg');
   position: absolute;
   top: 55px;
   left: 45%;

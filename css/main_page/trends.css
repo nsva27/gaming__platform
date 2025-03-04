@@ -25,7 +25,7 @@
 }
 
 .trends__followers::before {
-  content: url('../img/icons/fire.svg');
+  content: url('../../img/icons/fire.svg');
   margin-right: 13px;
 }
 
@@ -64,6 +64,6 @@
 .post__bg {
   position: absolute;
   right: 150px;
-  top: 333px;
+  top: 310px;
   z-index: 1;
 }

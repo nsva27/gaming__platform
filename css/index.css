@@ -1,10 +1,14 @@
 @import url(normalize.css);
-@import url(header.css);
-@import url(main.css);
-@import url(trends.css);
-@import url(dev.css);
-@import url(recent.css);
-@import url(footer.css);
+@import url(main_page/header.css);
+@import url(main_page/main.css);
+@import url(main_page/trends.css);
+@import url(main_page/dev.css);
+@import url(main_page/recent.css);
+@import url(main_page/footer.css);
+/* /index page */
+@import url(about_page/main_about.css);
+
+/* /about page */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -28,6 +32,16 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 187.5%;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: linear-gradient(#FA8305 0%, #FB9E3C 100%);
+  border-radius: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
 }
 
 .btn__see {
