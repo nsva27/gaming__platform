@@ -7,6 +7,8 @@
 @import url(main_page/footer.css);
 /* /index page */
 @import url(about_page/main_about.css);
+@import url(about_page/post_about.css);
+@import url(about_page/team_about.css);
 
 /* /about page */
 

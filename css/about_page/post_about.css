@@ -1,0 +1,41 @@
+.about-post {
+  max-width: 100%;
+  min-height: 603px;
+  background-color: #1C140F;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-post__img {
+  max-width: 496px;
+  max-height: 490px;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+
+.about-post__info {
+  max-width: 536px;
+  float: right;
+  margin: 134px 95px 0 0;
+}
+
+.about-post__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 202.5%;
+}
+
+.about-post__title {
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 157.5%;
+}
+
+.about-post__text {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 202.5%;
+}

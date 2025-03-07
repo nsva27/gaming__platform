@@ -1,0 +1,29 @@
+.about-team {
+  margin-top: 148px;
+}
+
+.about-team__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about-team__wrapper {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 53px;
+}
+
+.about-team__item {
+  width: 295px;
+  height: 253px;
+  background-color: #1C140F;
+  border-radius: 20px;
+}
+
+.about-team__info {}
+
+.about-team__photo {}
+
+.about-team__name {}
+
+.about-team__position {}
