@@ -57,3 +57,57 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.subscribe {
+  padding: 105px 0 163px;
+}
+
+.subscribe .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form-block {
+  margin-top: 74px;
+  padding: 40px 56px;
+  background-color: #1C140F;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-block .title {
+  font-weight: 500;
+}
+
+.form-block .text {
+  font-size: 17px;
+}
+
+.form {
+  position: relative;
+}
+
+.form__input {
+  padding: 14px 189px 14px 25px;
+  font-size: 14px;
+  color: #898989;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.form__btn {
+  padding: 9px 22px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #DC7000;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}

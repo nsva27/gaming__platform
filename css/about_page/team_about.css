@@ -16,14 +16,30 @@
 .about-team__item {
   width: 295px;
   height: 253px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #1C140F;
   border-radius: 20px;
 }
 
-.about-team__info {}
+.about-team__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.about-team__photo {}
+.about-team__photo {
+  width: 110px;
+  height: 110px;
+}
 
-.about-team__name {}
+.about-team__name {
+  font-size: 19px;
+  font-weight: 700;
+}
 
-.about-team__position {}
+.about-team__position {
+  font-size: 16px;
+  font-weight: 100;
+}
