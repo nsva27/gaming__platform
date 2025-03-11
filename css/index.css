@@ -12,6 +12,7 @@
 /* /about page */
 @import url(portfolio_page/results.css);
 @import url(portfolio_page/video.css);
+@import url(portfolio_page/posts.css);
 /* /portfolio page */
 
 body {
@@ -19,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 187.5%;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .wrapper {
