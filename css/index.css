@@ -9,15 +9,16 @@
 @import url(about_page/main_about.css);
 @import url(about_page/post_about.css);
 @import url(about_page/team_about.css);
-
 /* /about page */
+@import url(portfolio_page/results.css);
+@import url(portfolio_page/video.css);
+/* /portfolio page */
 
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 187.5%;
   color: #ffffff;
-
 }
 
 .wrapper {
@@ -36,6 +37,7 @@ body {
   line-height: 187.5%;
 }
 
+/* buttons */
 .btn {
   padding: 12px 30px;
   background: linear-gradient(#FA8305 0%, #FB9E3C 100%);
@@ -58,16 +60,38 @@ body {
   color: #ffffff;
 }
 
+/* /buttons */
+
+/* page navigation */
+.navigation {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navigation_current {
+  color: #E47500;
+}
+
+/* /page navigation */
+
+/* email form block */
 .subscribe {
   padding: 105px 0 163px;
 }
 
-.subscribe .title {
+.subscribe__title {
   font-size: 30px;
   font-weight: 600;
 }
 
-.form-block {
+.subscribe__text {
+  max-width: 545px;
+  margin-top: 32px;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.email {
   margin-top: 74px;
   padding: 40px 56px;
   background-color: #1C140F;
@@ -77,19 +101,30 @@ body {
   align-items: center;
 }
 
-.form-block .title {
+/* background for portfolio page */
+.email_gray {
+  background-color: #1B1B1B;
+}
+
+.email__about {
+  max-width: 520px;
+}
+
+.email__title {
   font-weight: 500;
 }
 
-.form-block .text {
+.email__text {
+  margin-top: 15px;
   font-size: 17px;
+  word-wrap: break-word;
 }
 
-.form {
+.email-form {
   position: relative;
 }
 
-.form__input {
+.email-form__input {
   padding: 14px 189px 14px 25px;
   font-size: 14px;
   color: #898989;
@@ -98,7 +133,7 @@ body {
   border-radius: 8px;
 }
 
-.form__btn {
+.email-form__btn {
   padding: 9px 22px;
   font-size: 13px;
   font-weight: 400;
@@ -111,3 +146,5 @@ body {
   top: 6px;
   right: 5px;
 }
+
+/* /email form block */

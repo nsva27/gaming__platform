@@ -1,0 +1,67 @@
+.video {
+  margin-top: 120px;
+}
+
+.video__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 88px;
+}
+
+.video__img {
+  width: 670px;
+  height: 355px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.video_play {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.text__wrapper {
+  width: 384px;
+  word-wrap: break-word;
+}
+
+.text__title {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 180.5%;
+}
+
+.text__descr {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 187.5%
+}
+
+.text__list {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.text__list-item {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 187.5%;
+  position: relative;
+}
+
+.text__list-item::before {
+  content: url(../../img/icons/chekbox.svg);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -32px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
